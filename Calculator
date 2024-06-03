@@ -43,10 +43,15 @@ void Division(){
 cout<<"\nGive any two number for Division:";
 cin>>a>>b;
 
+if(b==0){
+cout<<"\n Undifined";
+}
+
+else{
 Div=a/b;
 
 cout<<"\nThe Division is:"<<Div;
-
+}
 
 }
 
